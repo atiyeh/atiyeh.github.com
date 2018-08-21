@@ -1,8 +1,7 @@
 ---
 ---
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import "../fonts/fonts.css";
+
 
 /* Colours */
 $twitter:        #6dabda;
@@ -44,13 +43,14 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Vazir', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
-	width: 100%
+	width: 100%;
+	direction: rtl;
 }
 
 a, a:active {
@@ -106,11 +106,12 @@ ul {
 	@media (min-width: $screen-sm-min) {
 		font-size: 62px;
 		margin-left: -10%;
-		width: 120%;
+		width: 100%;
 	}
 }
 
 .menu-button {
+	display: none;
 	color: $white;
 	font-size: 24px;
 	position: fixed;
@@ -139,7 +140,7 @@ ul {
 }
 
 #my-menu {
-
+	display: none;
 	p {
 		margin-bottom: 5px;
 	}
@@ -153,7 +154,6 @@ ul {
 	}
 
 	.pages {
-
 		.fa {
 			margin-right: 10px;
 		}
@@ -243,7 +243,7 @@ ul {
 
 		@media (min-width: $screen-lg-min) {
 			margin-left: -10%;
-			width: 120%;
+			width: 100%;
 		}
 	}
 
@@ -256,7 +256,7 @@ ul {
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Vazir', sans-serif;
 		color: $light-blue;
 		margin-top: 0px;
 		padding-top: 15px;
@@ -269,7 +269,7 @@ ul {
 
 		@media (min-width: $screen-md-min) {
 			font-size: 60px;
-			margin-top: -20px;
+			margin-top: -10px;
 		}
 	}
 
@@ -447,7 +447,7 @@ ul {
 	max-height: 100%;
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Vazir', sans-serif;
 		margin-bottom: 10px;
 	}
 
@@ -619,7 +619,7 @@ ul {
 				}
 
 				:before {
-    			font-family: "Times New Roman";
+				font-family: 'Vazir', sans-serif;
 					color: $light-medium;
 			    content: "“";
 			    position: absolute;
