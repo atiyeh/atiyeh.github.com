@@ -4,7 +4,7 @@ title:      The promise
 date:       2018-08-14 15:00:00
 summary:    
 categories: post
-thumbnail:  heart
+thumbnail:  laugh-wink
 tags:
  - god
  - daily activity
